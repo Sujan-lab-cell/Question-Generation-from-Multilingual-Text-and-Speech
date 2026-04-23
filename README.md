@@ -133,13 +133,23 @@ fpdf2>=2.7.6
 
 ## 🤖 Supported Models
 
-| Model | Speed | Accuracy | Best For |
-|---|---|---|---|
-| `valhalla/t5-small-qg-hl` | ⚡ Fast | Good | Quick demos, low-resource environments |
-| `mrm8488/t5-base-finetuned-question-generation` | 🐢 Moderate | High | Accurate factual question generation |
-| `allenai/t5-small-squad2-question-generation` | ⚡ Fast | Good | SQuAD-style reading comprehension questions |
+| Model | Speed | Accuracy | Diversity | Best For |
+|---|---|---|---|---|
+| `valhalla/t5-small-qg-hl` | ⚡ Fast | Good | Low | Quick demos, low-resource environments |
+| `iarfmoose/t5-base-question-generator` ⭐ | 🐢 Moderate | High | High | Best overall – diverse & natural questions |
+| `allenai/t5-small-squad2-question-generation` | ⚡ Fast | Good | Medium | Reading comprehension (SQuAD-style) questions |
 
 ---
+
+### ⚠️ Note
+The model `mrm8488/t5-base-finetuned-question-generation` has been removed due to availability issues on Hugging Face and may cause runtime errors.
+
+---
+
+### 💡 Recommendation
+For best results:
+- Use **`iarfmoose/t5-base-question-generator`**
+- Enable sampling (`top_k`, `top_p`) for better diversity
 
 ## 🎛️ Settings Reference
 
