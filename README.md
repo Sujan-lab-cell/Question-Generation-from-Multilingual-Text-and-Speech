@@ -250,8 +250,32 @@ Supported TTS languages: English, Hindi, French, German, Spanish, Kannada, Telug
 │  └────────────────────────────────────────────┘       │
 └──────────────────────────────────────────────────────┘
 ```
+## 📸 Application Screenshots
 
----
+## 📸 Application Screenshots
+
+<table>
+  <tr>
+    <td align="center">
+      <b>🖥️ Main Dashboard</b><br>
+      <img src="input1.png" width="400"/>
+    </td>
+    <td align="center">
+      <b>⚙️ Settings & Filters</b><br>
+      <img src="input2.png" width="400"/>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <b>❓ Generated Questions</b><br>
+      <img src="input3.png" width="400"/>
+    </td>
+    <td align="center">
+      <b>📥 Download & Export</b><br>
+      <img src="input4.png" width="400"/>
+    </td>
+  </tr>
+</table>
 
 ## ⚡ Performance Tips
 
