@@ -11,3 +11,4 @@ langdetect
   librosa 
   soundfile
   deep_translator
+importspeech_recognition
